@@ -1,0 +1,78 @@
+.lines {
+  width: 50px;
+  height: 500px;
+  margin: 50px;
+  position: relative;
+  background-color: #FDEFFD;
+  top:-19.527px;
+
+  .cursor {
+    top: 0px;
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    //background-color: red;    
+  }
+  
+.cursor:first-child::before{
+      content:" ";
+      display: block;
+      position: absolute;
+      top:-9px;
+      left:-10px;        
+      border: 10px solid transparent;
+      border-left: 10px solid black;     
+}
+
+.cursor::after{
+      content:" ";
+      display: block;
+      position: absolute;
+      top:-9px;
+      right:10px;        
+      border: 10px solid transparent;
+      border-right: 10px solid black;     
+}
+
+  &::before { 
+    content: " ";
+    display: block;   
+    top: 0px;
+    bottom:0px;
+    left: 25px;
+    position: absolute;
+    width: 2px;
+    height: 506px;
+    background-color: black;
+  }
+
+  .block {
+    border-bottom: 1px solid black;
+  }
+
+}
+
+.lines-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.txt-container{
+  position: absolute;  
+  display: flex;
+  flex-direction: row;
+}
+.txt-1,.txt-2,.txt-3{
+  position: relative; 
+}
+.txt-1{
+  left:0px;
+  margin-left: 60px;
+}
+.txt-2{
+  left:85px;
+  margin-left: 15px;
+}
+.txt-3{
+  left:170px;
+}

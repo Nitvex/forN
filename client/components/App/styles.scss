@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  min-width: 900px;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  max-height: 100px;
+  margin-left: 40px; 
+}
+
+.column {
+  display: flex;
+  flex-direction: column;  
+}
+
+.item {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.btn{
+  border-radius: 20px;
+  background-color: white;
+  padding: 0 15px;
+}
+
+.output{
+  border-bottom: 1px solid aqua;
+  color:aqua;
+}
+
+.input{
+  border-bottom: 1px solid black;
+}

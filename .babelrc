@@ -1,0 +1,9 @@
+{
+  "presets":[
+    "react",
+    "react-hmre",
+    "stage-0",
+    "stage-2",
+    "stage-3"
+  ]
+}
