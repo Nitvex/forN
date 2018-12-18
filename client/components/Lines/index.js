@@ -21,7 +21,7 @@ class Lines extends Component {
           <div className="txt-3">ARTM</div>
         </div>
         <div className="lines">
-          <div className="cursor" style={{ top: (cursor.position / (cursor.maxPosition / 100)) * 5 + 19.527 }} />
+          <div className="cursor" style={{ top: (cursor.position / (cursor.maxPosition / 100)) * 5 }} />
           {cursor.paragraphs.map((paragraph, i) => (
             <div
               key={i}
@@ -36,7 +36,7 @@ class Lines extends Component {
           ))}
         </div>
         <div className="lines">
-          <div className="cursor" style={{ top: (cursor.position / (cursor.maxPosition / 100)) * 5 + 19.527 }} />
+          <div className="cursor" style={{ top: (cursor.position / (cursor.maxPosition / 100)) * 5 }} />
           {cursor.paragraphs.map((paragraph, i) => (
             <div
               key={i}
@@ -51,7 +51,7 @@ class Lines extends Component {
           ))}
         </div>
         <div className="lines">
-          <div className="cursor" style={{ top: (cursor.position / (cursor.maxPosition / 100)) * 5 + 19.527 }} />
+          <div className="cursor" style={{ top: (cursor.position / (cursor.maxPosition / 100)) * 5 }} />
           {cursor.paragraphs.map((paragraph, i) => (
             <div
               key={i}
